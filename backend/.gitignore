@@ -1,0 +1,78 @@
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Sensitive files
+.env
+.env.*
+
+# Logs
+*.log
+*.log.*
+logs/
+log/
+
+# IDE-specific ignores
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files and backups
+*.bak
+*.tmp
+*.swp
+*.swo
+*.~*
+~$*
+
+# Byte-compiled Python files
+*.pyc
+
+# Database files
+*.sqlite3
+
+# Testing outputs
+*.coverage
+coverage/
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.runner-cache/
+test-results/
+
+# Other
+*.lock
+yarn-error.log
+npm-debug.log*
+*.png
+*.csv
+*.joblib
+*.sql
+*.tif
+*.nc
+backup*.sql
+*.tiff
+
+node_modules/
+data/
+storage/__pycache__/
+storage/
