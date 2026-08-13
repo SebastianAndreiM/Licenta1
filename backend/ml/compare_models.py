@@ -8,9 +8,6 @@ Compara 4 modele de regresie pentru predictia NDVI din variabile climatice:
 Toate folosesc EXACT aceleasi date, aceeasi impartire train/test si aceleasi
 metrici - singurul mod corect de a compara.
 
-Ruleaza din folderul backend:
-    python -m ml.compare_models
-
 Produce:
     ml/model_<nume>.joblib       - fiecare model antrenat
     ml/comparison_results.csv    - tabelul comparativ (pentru lucrare)
